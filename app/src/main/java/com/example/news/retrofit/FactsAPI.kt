@@ -3,6 +3,6 @@ package com.example.news.retrofit
 import retrofit2.http.*
 
 interface FactsAPI {
-    @GET("fact?max_length=70")
-    suspend fun getFact() : DataFacts
+    @GET("spells/{id}")
+    suspend fun getFact(@Path("id") id: Int) : DataFacts
 }

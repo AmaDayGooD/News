@@ -1,6 +1,7 @@
 package com.example.news.retrofit
 
 data class DataFacts(
-    var fact : String? = null,
-    var length: Int? = null
+    var id : Int? = null,
+    var spell: String? = null,
+    var use: String? = null
 )

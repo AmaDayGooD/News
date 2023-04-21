@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">News</string>
-    <string name="button">Button</string>
-    <string name="textview">TextView</string>
+    <string name="button">Press me</string>
+    <string name="rand">Random</string>
+    <string name="textview">Magic</string>
+    <string name="edit">Enter number</string>
 </resources>
