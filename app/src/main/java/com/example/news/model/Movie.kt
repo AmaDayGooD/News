@@ -1,6 +1,6 @@
 package com.example.news.model
 
-data class dataNews(
+data class Movie(
     var name:String? = null,
     var realname:String? = null,
     var team:String? = null,
